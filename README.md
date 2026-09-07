@@ -10,6 +10,14 @@ The sigrok project aims at creating a portable, cross-platform, Free/Libre/Open-
 
 The DSView software is in a usable state and has official tarball releases. However, it is still a work in progress. Some basic functionality is available and working, but other things are always on the TODO list.
 
+# Installation
+On Fedora/Nobrara Linux : 
+
+    sudo dnf install glib2-devel python3-devel fftw-devel zlibrary-devel libusb1-devel qt5-qtbase-devel
+    cmake .
+    make 
+    sudo make install
+
 # Useful links
 
 - [dreamsourcelab.com](https://www.dreamsourcelab.com)
